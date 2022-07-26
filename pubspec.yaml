@@ -1,0 +1,26 @@
+name: asdf
+description: A new Flutter project.
+publish_to: none
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.17.6 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^1.0.3
+  auto_size_text: 3.0.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter: 
+  uses-material-design: true
+  assets: 
+    - packages/asdf/assets/images/line1.svg
+    - packages/asdf/assets/images/arrow1.svg
+    - packages/asdf/assets/images/ellipse1.png
+    - packages/asdf/assets/images/ellipse2.png
+    - packages/asdf/assets/images/polygon1.svg
+    - packages/asdf/assets/images/star1.svg
+    - packages/asdf/assets/images/frame3.svg
